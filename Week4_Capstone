@@ -1,0 +1,17 @@
+# Business Problem
+
+The Chang's have planned to migrate to Toronto, Canada. They have been running a family hospitality business for many years in China.
+Since they are moving to Toronto, they are planning on opening their hospitality business in that city, where they can make their business
+grow and profit. This is a new place for them, so they aren't sure where the location is for opening a Chinese restaurant. Therefore, the
+objective of our project is to help the Chang's with finding a great location for opening a business.
+
+# Data description
+
+First and foremost, we will need to use the Foursquare location data (https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M)
+and postal code list data (Geospatial Coordinates data) in conjunction with each other. The Wikipedia website contains the Canadian 
+postal code starting with the letter M and the corresponding Borough and Neighborhood. This list gets consolidated with the Geospatial Coordinates
+data which includes the longitude and latitude of the Neighborhoods. We then explore the neighborhoods in Toronto using the Foursquare location data.
+We will ask the stakeholders for a preference of location, and depending on that, we cluster the neighborhoods by the different suburbs.
+This is essential as by clustering, we can identify and group similar data points in larger datasets without concern for the specific outcome.
+After analysing the dataframe, we can suggest different locations to the Chang's.
+
